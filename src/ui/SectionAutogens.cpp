@@ -1,6 +1,6 @@
 #include "SectionAutogens.hpp"
 
-void Section_addPages(void* pSection, int sectionId) {
+void Section_addPages(UI::Section* pSection, int sectionId) {
   switch (sectionId) {
   case 6:
     Section_addPage(pSection, 0);
@@ -1587,7 +1587,7 @@ void Section_addPages(void* pSection, int sectionId) {
   }
 }
 
-void Section_addActivePages(void* section, int sectionId) {
+void Section_addActivePages(UI::Section* section, int sectionId) {
   switch (sectionId) {
   case 6:
     Section_addActivePage(section, 0);
