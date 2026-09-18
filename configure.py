@@ -804,6 +804,7 @@ config.libs = [
 
             Object(Matching, "ui/ControlGroup.cpp"),
             Object(Matching, "ui/MessageGroup.cpp"),
+            Object(Matching, "ui/Section.cpp"),
             Object(NonMatching, "ui/SectionAutogens.cpp"),
             Object(NonMatching, "ui/SectionManager.cpp"),
             Object(NonMatching, "ui/Page.cpp"),

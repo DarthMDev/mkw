@@ -155,8 +155,8 @@ ui/Page.cpp:
 	.text       start:0x8060197C end:0x80602D2C
 	.data       start:0x808BA5C0 end:0x808BA624
 
-ui/Section.o:
-	.text       start:0x80621D0C end:0x80624690
+ui/Section.cpp:
+	.text       start:0x80622D08 end:0x80622EC8
 
 ui/SectionAutogens.cpp:
 	.text       start:0x8062C3A4 end:0x8063240C
